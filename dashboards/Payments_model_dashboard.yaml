@@ -1,0 +1,49 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+title: "Payments_model_dashboard"
+model: "Payments_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: ""
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+    valid_percent_of_total: true
+dimensions:
+  - name: check_date
+    label: Check_date
+    column: check_date
+    description: ""
+  - name: voucher_number
+    label: Voucher_number
+    column: voucher_number
+    description: ""
+  - name: vendor_name
+    label: Vendor_name
+    column: vendor_name
+    description: ""
+  - name: department_name
+    label: Department_name
+    column: department_name
+    description: ""
+  - name: cashed
+    label: Cashed
+    column: cashed
+    description: ""
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
