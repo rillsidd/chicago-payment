@@ -2,7 +2,7 @@
 
 # Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
 
-title: "All vendor payments made by the City of Chicago from 1996 to present"
+title: "Payments_dashboard"
 model: "Payments_model"
 default_time_range: ""
 smallest_time_grain: ""
