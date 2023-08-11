@@ -4,9 +4,9 @@
 
 title: "Payments_dashboard"
 model: "Payments_model"
-default_time_range: ""
+default_time_range: "inf"
 smallest_time_grain: ""
-timeseries: ""
+timeseries: "check_year_new"
 measures:
   - label: Total records
     expression: count(*)
@@ -27,9 +27,9 @@ measures:
     format_preset: humanize
     valid_percent_of_total: true
 dimensions:
-  - name: check_date
-    label: Check_date
-    column: check_date
+  - name: check_year
+    label: check_year
+    column: check_year
     description: ""
   - name: voucher_number
     label: Voucher_number
