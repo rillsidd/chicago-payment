@@ -8,17 +8,17 @@ default_time_range: "inf"
 smallest_time_grain: "year"
 timeseries: "check_year_new"
 measures:
-  - label: Total records
-    expression: count(*)
-    name: total_records
-    description: Total number of records present
-    format_preset: humanize
-    valid_percent_of_total: true
   - label: Total Amount
     expression: sum(amount)
     name: total_amount
     description: Total number of Amount Collected
     format_preset: currency_usd
+    valid_percent_of_total: true  
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
     valid_percent_of_total: true
   - label: Total No. of Vouchers
     expression: count(voucher_number)
