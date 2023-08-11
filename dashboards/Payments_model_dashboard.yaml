@@ -5,7 +5,7 @@
 title: "Payments_dashboard"
 model: "Payments_model"
 default_time_range: "inf"
-smallest_time_grain: ""
+smallest_time_grain: "year"
 timeseries: "check_year_new"
 measures:
   - label: Total records
